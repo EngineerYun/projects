@@ -1,8 +1,8 @@
 # ----------- CONFIGURABLE START -----------
-title:            "LiberXue|FullStack|独立开发者|jekyll blog|GitHub blog"
-description:      "Full Stack独立开发者|欢迎来到 LiberXue「角落」侃侃理想、谈谈人生、敲敲代码。"
+title:            "Project-Blog"
+description:      "개발일지"
 url:              http://portfl.tk/ # 域名
-signoff:          "LiberXue" # Your name
+signoff:          "Project-Blog" # Your name
 facebook_appid:   #liberxue
 google_analytics: UA-101222464-1
 share:            true 
@@ -11,22 +11,22 @@ paginate: 15
 paginate_path: "liberxuepage:num"
 gems: [jekyll-paginate]
 links:
-  - name:         首页
+  - name:         HOME
     url:          /
     external:     false
-  - name:         书籍
+  - name:         BOOK
     url:          /book
     external:     false
-  - name:         旅游
+  - name:         ROAD
     url:          /road
     external:     false
-  - name:         归档
+  - name:         ARCHIVES
     url:          /archives
     external:     false
-  - name:         标签
+  - name:         TAGS
     url:          /tags
     external:     false
-  - name:         关于
+  - name:         ABOUT
     url:          /about
     external:     false
 # ------------ CONFIGURABLE END ------------
