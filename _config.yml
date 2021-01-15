@@ -14,8 +14,8 @@ links:
   - name:         HOME
     url:          /
     external:     false
-  - name:         DevNote
-    url:          /book
+  - name:         PROJECT
+    url:          /project
     external:     false
   - name:         ARCHIVES
     url:          /archives
