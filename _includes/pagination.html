@@ -13,7 +13,7 @@
             {% if paginator.previous_page == 1 %}
             <a href="/liberxupages">
             {% else %}
-            <a href="/liberxuepage{{ paginator.previous_page }}?pages" >
+            <a href="/liberxuepage{{ paginator.previous_page }}" >
             {% endif %}
                 <span>&laquo;</span>
             </a>
@@ -26,9 +26,9 @@
         <li>
             {% endif %}
             {% if i == 1 %}
-            <a href="/?pages" data-hover="{{i}}">{{i}}</a>
+            <a href="/" data-hover="{{i}}">{{i}}</a>
             {% else %}
-            <a href="/liberxuepage{{i}}?pages" data-hover="{{i}}">{{i}}</a>
+            <a href="/liberxuepage{{i}}" data-hover="{{i}}">{{i}}</a>
             {% endif %}
         </li>
         {% endfor %}
@@ -36,13 +36,13 @@
             {% if paginator.page == paginator.total_pages %}
             <span>&raquo;</span>
             {% else %}
-            <a href="/liberxuepage{{ paginator.next_page }}?pages" data-hover="&raquo;">
+            <a href="/liberxuepage{{ paginator.next_page }}" data-hover="&raquo;">
                 <span>&raquo;</span>
             </a>
             {% endif %}
         </li>
         <li>
-            <a href="/liberxuepage{{paginator.total_pages}}?pages" data-hover="마지막페이지">
+            <a href="/liberxuepage{{paginator.total_pages}}" data-hover="마지막페이지">
                 <span>마지막페이지</span>
             </a>
         </li>
