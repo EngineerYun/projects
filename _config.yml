@@ -14,11 +14,8 @@ links:
   - name:         HOME
     url:          /
     external:     false
-  - name:         BOOK
+  - name:         DevNote
     url:          /book
-    external:     false
-  - name:         ROAD
-    url:          /road
     external:     false
   - name:         ARCHIVES
     url:          /archives
