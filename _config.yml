@@ -1,8 +1,8 @@
 #Site
-title: 水榭清松-Song Kong
-description: This is Song' home.
+title: projects
+description: This is my home.
 logo: favicon.png
-url: ikongsong.com
+url: portfl.tk/
 rss_url: /feed.xml
 
 # Jekyll
@@ -34,17 +34,17 @@ baidu_analytics: 5b31ffbbdc6cff18727f3adf75a03777    #from //hm.baidu.com/hm.js?
 # Author information:
 author:
   #resume: /resume
-  name: Song Kong     #the name of Blog section
-  about_me: I'm Song Kong. This is my online home & blog, where I share thoughts about front-end development, cloud computing, my daily life and other insteresting topics. Feel free to contact me by email if you have any question.
+  name: Yun     #the name of Blog section
+  about_me: 안녕하세요 여긴 따로 개인 프로젝트를 모아놓은 사이트입니다 문제가 있으면 밑의 이메일로 보내주세요
  
 # Social Links
-email:               hi@ikongsong.com
+email:               swengineeryun@gmail.com
 #google.plus:        username
 #twitter:            username
-facebook:            kongsong
-github:              songkong
-stackoverflow:      6438519/song-kong   #from a "http://stackoverflow.com/users/123456/username" link
-linkedin:           kongsong
+facebook:            Yun
+github:              EngineerYun
+stackoverflow:      #   #from a "http://stackoverflow.com/users/123456/username" link
+linkedin:           #
 #xing:              username
 #instagram:          username
 #lastfm:            username
