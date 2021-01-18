@@ -1,3 +1,7 @@
-_site
+archive
 node_modules
-Gemfile*
+.idea
+.sass-cache
+.git
+.DS_Store
+Blog.xcworkspace
