@@ -1,70 +1,28 @@
-                .::         .::                       .::      .::                 
-                .::       .:.::                        .::   .::                    
-                .::         .::         .::    .: .:::  .:: .::   .::  .::   .::    
-                .::      .::.:: .::   .:   .::  .::       .::     .::  .:: .:   .:: 
-                .::      .::.::   .::.::::: .:: .::     .:: .::   .::  .::.::::: .::
-                .::      .::.::   .::.:         .::    .::   .::  .::  .::.:        
-                .::::::::.::.:: .::    .::::   .:::   .::      .::  .::.::  .::::   
-                          Copyright (c) 2016-2018 liberxue
-                                 http://www.liberxue.com
-                           
-#### liberxue.github.io preview (demo) (http://www.liberxue.com)
+# Project Pages
 
-#### `Jekyll Themes`
-----------
-[简体中文版帮助文档README](/ChinaREADME.md)
-#### ``Lightweight``  ``Minimalist``  ``Jekyll blog``
+Project Pages is Jekyll Template specifically geared towards collaborative science. For more information, click [here](https://github.com/projectpages/project-pages/wiki/).
 
-#### The first step is to click [fork][https://github.com/liberxue/liberxue.github.io/fork]
-#### The second step is to modify the _config.yml in URL for your domain name
+# Nav Bar Jumbles
 
-#### OK all right, it's that simple
+If you have seemingly random pages popping up on your Nav Bar recently, this is due to the fact that GitHub/Jekyll changed a fundemental rule they used to render pages. 
 
-#### I don't want any copyright also don't need you to donate, I only need you with a star 🌟  Thx 😄
+## CAUSE:
+It used to be that if a markdown file didn't have `---` frontmatter at the beginning, it wasn't rendered as a page. This was changed very recently (like in the last 2 days) so that every markdown file anywhere no matter what gets rendered as a page.  
 
-- [x] Automatic generation tag
-- [x] Automatic generation of JSON search
-- [x] Adaptive template
-- [x] Automatic generation of feed.xml
-- [x] Automatic paging generation
-- [x] Modify _config.yml's links for your menu
-- [x] Modify the _config.yml of paginate for how many pages you want to page
-## Stargazers over time
+## FIX:
 
-[![Stargazers over time](https://starchart.cc/Liberxue/liberxue.github.io.svg)](https://starchart.cc/Liberxue/liberxue.github.io)
+1) Go to:
 
-![uiliberxue](https://raw.githubusercontent.com/Liberxue/liberxue.github.io/master/thumbnails/ui.jpg) 
+`project-pages/plugin/projector/` or `yourreponame/plugin/projector/` and delete the `README.md` file. This can be done graphically for the non-Git-savvy by simply going to your:
 
- ![archives](https://raw.githubusercontent.com/Liberxue/liberxue.github.io/master/thumbnails/archives.png) 
+GitHub account -> Your Profile -> Repositories -> Project-Pages/Your Repo -> Plugin -> projector 
 
- ![blog](https://raw.githubusercontent.com/Liberxue/liberxue.github.io/master/thumbnails/blog.png) 
+and clicking on the files, then clicking on the "thrash can / delete this file" icon on the top right corner of the file.
 
- ![tags](https://raw.githubusercontent.com/Liberxue/liberxue.github.io/master/thumbnails/tags.png) 
+2) Go to:
 
-  ![404](https://raw.githubusercontent.com/Liberxue/liberxue.github.io/master/thumbnails/404.png) 
+`project-pages/css/theme/` or `yourreponame/css/theme/` and delete the `README.md` file. This can be done graphically for the non-Git-savvy by simply going to your:
 
- ----------
-![blog JSON search](https://raw.githubusercontent.com/Liberxue/liberxue.github.io/master/thumbnails/01.gif) 
+GitHub account -> Your Profile -> Repositories -> Project-Pages/Your Repo -> Plugin -> projector 
 
-#### 1.First step Click[fork](https://github.com/Liberxue/liberxue.github.io#fork-destination-box)
- 
-----
-
-![fork](https://raw.githubusercontent.com/Liberxue/liberxue.github.io/master/thumbnails/02.gif)
-  
-  
-
-
-#### 2. modify _config.yml url URL for your domain
-
-![modify _config.yml url URL for your domain](https://raw.githubusercontent.com/Liberxue/liberxue.github.io/master/thumbnails/04.gif)
-  
-
-
-
-* [Issues](https://github.com/Liberxue/liberxue.github.io/issues)
- 
-* [Email](mailto:liberxue@gmail.com)
- 
-* [Twitter](https://twitter.com/liberxue).
-
+and clicking on the files, then clicking on the "thrash can / delete this file" icon on the top right corner of the file.
