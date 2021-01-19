@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Projects</title>
+  <title>Blog of Song</title>
   <meta name="description" content="This is Song' home.">
 
   <link rel="stylesheet" href="/assets/css/main.css" | prepend: site.baseurl }}">
@@ -41,13 +41,13 @@
 	    <svg id="ice-bear" xmlns="http://www.w3.org/2000/svg"  version="1.1" width="100%" height="100%" viewBox="0 0 800 400">
 		
             <g id="welcom-text" style="text-shadow: 1px 1px #EFEFEF, 2px 2px #ccc">
-                <text x="50" y="130" fill="#ffffff" font-size="100">W</text>
-                <text x="160" y="130" fill="#ffffff" font-size="100">E</text>
-                <text x="230" y="130" fill="#ffffff" font-size="100">L</text>
-                <text x="310" y="130" fill="#ffffff" font-size="100">C</text>
-                <text x="400" y="130" fill="#ffffff" font-size="100">O</text>
-                <text x="480" y="130" fill="#ffffff" font-size="100">M</text>
-                <text x="600" y="130" fill="#ffffff" font-size="100">E</text>
+                <text x="50" y="130" fill="#ed5565" font-size="100">W</text>
+                <text x="160" y="180" fill="#f4b350" font-size="100">E</text>
+                <text x="230" y="140" fill="#f2db94" font-size="130">L</text>
+                <text x="310" y="160" fill="#62ddbd" font-size="100">C</text>
+                <text x="400" y="160" fill="#62B3E5" font-size="90">O</text>
+                <text x="480" y="160" fill="#ec87c0" font-size="120">M</text>
+                <text x="600" y="160" fill="#b3aeef" font-size="100">E</text>
             </g>
             <g id="bear-head" fill="white">
                 <circle r="20" cx="380" cy="310"/>
@@ -111,7 +111,34 @@
 			</div>
 			<ul class="posts-list tab-one-list" id="pag-itemContainer-one">
 				
+				<li>
+					<h2>
+						<a href="/blog/first-pages/" class="post-title">
+							<span>안녕하세요
+</span>
+						</a>
+						<span class="date">01 Jul 2017</span>
+					</h2>
+					<p>벌써 머리가 어지럽네요</p>
+					<ul class="tags">
+						
+						<li><a href="/tags#CN">CN</a></li>
 				
+				
+						<li><a href="/tags#front-end">front-end</a></li>
+						
+						
+						<li><a href="/tags#Mobile">Mobile</a></li>
+						
+						
+						<li><a href="/tags#html">html</a></li>
+						
+				        <li><a href="/tags#React">React</a></li>
+				        <li><a href="/tags#sw">sw</a></li>
+						
+						
+					</ul>
+				</li>
 				
 				<li>
 					<h2>
@@ -504,6 +531,37 @@
 	</section>
 	
 		
+			<section id="comments">
+    <div class="wrapper">
+        <div class="line-highlight"><i class="fa fa-paw" aria-hidden="true"></i></div>
+		
+        <h1 class="blue-title">Comments</h1>
+		
+
+		
+		<!-- Gitalk  BEGIN-->
+		<div id="gitalk-container" ></div>
+		<script type="text/javascript">
+            var gitalk = new Gitalk({
+                clientID: '06d60e5287de2b4292cc',
+                clientSecret: 'bdf1b23d4351a323bd556fde080567b0e0d0e138',
+                repo: 'blogcomments',
+                owner: 'songkong',
+                admin: ['songkong'],
+                id: location.pathname,
+                distractionFreeMode: false
+            });
+            gitalk.render('gitalk-container')
+		</script>
+		<!-- Gitalk END -->
+		
+
+
+		
+
+    </div>
+</section>
+
 		
 		<footer id="footer">
   <div class="footer-border"></div>
