@@ -2,7 +2,7 @@
 layout: post
 title:  "안녕하세요"
 date:   2021-01-20 17:31:30 +0800
-categories: [Dev]
+categories: [Tech]
 excerpt: 벌써 머리가 어지럽네요
 tags:
   - CN
